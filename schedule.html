@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Rooster</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/stylesheet.css">
+
+    <!-- Custom CSS -->
+    <style>
+    body {
+        padding-top: 25px;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+	<div class="container" id="banner">
+      <div class="row">
+		<div class="header col-xs-12">
+          <img src="images/logo.png" alt="Rijn IJssel logo" />
+		</div>	
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+           
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+					
+					
+					<li class="dropdown">
+						  <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Opleiding
+						  <span class="caret"></span></a>
+						  <ul class="dropdown-menu">
+							<li> <a href="booklist.html">Boekenlijst</a> </li>
+							<li> <a href="http://www.rijnijssel.nl/Codefest">CodeFest</a> </li>
+							<li> <a href="facilities.html">Faciliteiten</a> </li>
+							<li> <a href="rules.html">Regels</a> </li>
+							<li> <a class="active" href="schedule.html">Rooster</a> </li>
+						  </ul>
+					</li>
+					
+					
+					<li><a href="locations.html">Locaties</a></li>
+					<li><a href="teachers.html">Docenten</a></li>
+					<li><a href="faq.html">FAQ</a></li>
+					<li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+			
+			<div class="container">
+				<div class="schedule">
+				    <table style="width: 100%;">
+				        <tr>
+				            <th>Dag</th>
+				            <th>Maandag</th>
+				            <th>Dinsdag</th>
+				            <th>Woensdag</th>
+				            <th>Donderdag</th>
+				            <th>Vrijdag</th>
+				        </tr>
+
+				        <tr>
+				            <th>08:30 - 09:00</th>
+				            <th></th>
+				            <th class="schedule_names">AO</th>
+				            <th></th>
+				            <th class="schedule_names" rowspan="4">AO</th>
+				            <th class="schedule_names" rowspan="8">AO</th>
+				        </tr>
+
+				        <tr>
+				            <th>09:00 - 09:30</th>
+				            <th></th>
+				            <th class="schedule_names" rowspan="2">Burgerschap</th>
+				            <th></th>
+				        </tr>
+
+				        <tr>
+				            <th>09:30 - 10:00</th>
+				            <th></th>
+				            <th></th>
+				        </tr>
+
+				        <tr>
+				            <th>10:00 - 10:30</th>
+				            <th></th>
+				            <th class="schedule_names" rowspan="2">AO</th>
+				            <th></th>
+				        </tr>
+
+				        <tr>
+				            <th>10:30 - 11:00</th>
+				            <th></th>
+				            <th></th>
+				            <th class="schedule_names" rowspan="4">AO</th>
+				        </tr>
+
+				        <tr>
+				            <th>11:00 - 11:30</th>
+				            <th></th>
+				            <th class="schedule_names" rowspan="3">Structuuruur</th>
+				            <th class="schedule_names">Structuuruur</th>
+				        </tr>
+
+				        <tr>
+				            <th>11:30 - 12:00</th>
+				            <th class="schedule_names" rowspan="2">Engels</th>
+				            <th class="schedule_names" rowspan="2">Rekenen</th>
+				        </tr>
+
+				        <tr>
+				            <th>12:00 - 12:30</th>
+				        </tr>
+
+				        <tr>
+				            <th>12:30 - 13:00</th>
+				            <th></th>
+				            <th></th>
+				            <th></th>
+				            <th></th>
+				            <th></th>
+				        </tr>
+
+				        <tr>
+				            <th>13:00 - 13:30</th>
+				            <th class="schedule_names" rowspan="8">AO</th>
+				            <th class="schedule_names" rowspan="6">AO</th>
+				            <th class="schedule_names" rowspan="8">AO</th>
+				            <th></th>
+				            <th></th>
+				        </tr>
+
+				        <tr>
+				            <th>13:30 - 14:00</th>
+				            <th></th>
+				            <th></th>
+				        </tr>
+
+				        <tr>
+				            <th>14:00 - 14:30</th>
+				            <th class="schedule_names" rowspan="4">Sport</th>
+				            <th></th>
+				        </tr>
+
+				        <tr>
+				            <th>14:30 - 15:00</th>
+				            <th></th>
+				        </tr>
+
+				        <tr>
+				            <th>15:00 - 15:30</th>
+				            <th></th>
+				        </tr>
+
+				        <tr>
+				            <th>15:30 - 16:00</th>
+				            <th></th>
+				        </tr>
+
+				        <tr>
+				            <th>16:00 - 16:30</th>
+				            <th></th>
+				            <th></th>
+				            <th></th>
+				        </tr>
+
+				        <tr>
+				            <th>16:30 - 17:00</th>
+				            <th></th>
+				            <th></th>
+				            <th></th>
+				        </tr>
+				    </table>
+				</div>
+			</div>
+			<div class="footer">
+				&copy; 2016 - Rijn IJssel. Alle rechten voorbehouden.
+			</div>
+		</div>
+	<!-- jQuery Version 1.11.1 -->
+	<script src="js/jquery.js"></script>
+
+	<!-- Bootstrap Core JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>

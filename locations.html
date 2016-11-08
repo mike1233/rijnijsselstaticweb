@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Locaties</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/stylesheet.css">
+
+    <!-- Custom CSS -->
+    <style>
+    body {
+        padding-top: 25px;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+	<div class="container" id="banner">
+      <div class="row">
+		<div class="header col-xs-12">
+          <img src="images/logo.png" alt="Rijn IJssel logo" />
+		</div>	
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+           
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+					
+					
+					<li class="dropdown">
+						  <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Opleiding
+						  <span class="caret"></span></a>
+						  <ul class="dropdown-menu">
+							<li> <a href="booklist.html">Boekenlijst</a> </li>
+							<li> <a href="http://www.rijnijssel.nl/Codefest">CodeFest</a> </li>
+							<li> <a href="facilities.html">Faciliteiten</a> </li>
+							<li> <a href="rules.html">Regels</a> </li>
+							<li> <a href="schedule.html">Rooster</a> </li>
+						  </ul>
+					</li>
+					
+					
+					<li><a class="active" href="locations.html">Locaties</a></li>
+					<li><a href="teachers.html">Docenten</a></li>
+					<li><a href="faq.html">FAQ</a></li>
+					<li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+			<div class="container">
+				<div class="row">
+
+
+						<div class="location  col-sm-4 col-xs-6 col-md-3 col-lg-3">
+							<img class="location-img" src="images/locations/1.jpg" onclick="location1()" alt="Afbeelding van RijnIJssel locatie Alexanderstraat 35" />
+							<p class="location-name">Alexanderstraat 35</p>
+							<p class="location-zip">6812 BC Arnhem</p>
+							<p class="location-phone">026 3129800 </p>
+							<div class="parent">
+								<a  href="https://www.rijnijssel.nl/Locaties/?id=2&go_number=0" target="_blank">Opleidingen op locatie ></a>
+							</div>
+						</div>
+						<div class="location  col-sm-4 col-xs-6 col-md-3 col-lg-3">
+							<img class="location-img" src="images/locations/2.jpg" onclick="location2()" alt="Afbeelding van RijnIJssel locatie Apeldoornseweg 210a">
+							<p class="location-name">Apeldoornseweg 210a</p>
+							<p class="location-zip">6814 BS Arnhem</p>
+							<p class="location-phone">026 3129670</p>
+							<div class="parent">
+								<a href="https://www.rijnijssel.nl/Locaties/?id=3&go_number=1" target="_blank">Opleidingen op locatie ></a>
+							</div>
+						</div>
+						<div class="location  col-sm-4 col-xs-6 col-md-3 col-lg-3">
+							<img class="location-img" src="images/locations/3.jpg" onclick="location3()" alt="Afbeelding van RijnIJssel locatie Beukenlaan 3">
+							<p class="location-name">Beukenlaan 3</p>
+							<p class="location-zip">6823 MA Arnhem</p>
+							<p class="location-phone">026 3129500</p>
+							<div class="parent">
+								<a href="https://www.rijnijssel.nl/Locaties/?id=7&go_number=2" target="_blank">Opleidingen op locatie ></a>
+							</div>
+						</div>
+						<div class="location  col-sm-4 col-xs-6 col-md-3 col-lg-3">
+							<img class="location-img" src="images/locations/4.jpg" onclick="location4()" alt="Afbeelding van RijnIJssel locatie Einsteinweg 8a">
+							<p class="location-name">Einsteinweg 8a</p>
+							<p class="location-zip">6662 PW Elst</p>
+							<p class="location-phone">026 3129770</p>
+							<div class="parent">
+							<a href="https://www.rijnijssel.nl/Locaties/?id=5&go_number=3" target="_blank">Opleidingen op locatie ></a>
+							</div>
+						</div>
+						<div class="location  col-sm-4 col-xs-6 col-md-3 col-lg-3">
+							<img class="location-img" src="images/locations/5.jpg" onclick="location5()" alt="Afbeelding van RijnIJssel locatie Groeneweg 14">
+							<p class="location-name">Groeneweg 14</p>
+							<p class="location-zip">6871 DD Renkum</p>
+							<p class="location-phone">0317 315474</p>
+							<div class="parent">
+							<a href="https://www.rijnijssel.nl/Locaties/?id=10&go_number=4" target="_blank">Opleidingen op locatie ></a>
+							</div>
+						</div>
+						<div class="location  col-sm-4 col-xs-6 col-md-3 col-lg-3">
+							<img class="location-img" src="images/locations/6.jpg" onclick="location6()" alt="Afbeelding van RijnIJssel locatie Hutteweg 24">
+							<p class="location-name">Hutteweg 24</p>
+							<p class="location-zip">7071 BV Ulft</p>
+							<p class="location-phone">0315 714358</p>
+							<div class="parent">
+							<a href="https://www.rijnijssel.nl/Locaties/?id=31&go_number=5" target="_blank">Opleidingen op locatie ></a>
+							</div>
+						</div>
+						<div class="location  col-sm-4 col-xs-6 col-md-3 col-lg-3">
+							<img class="location-img" src="images/locations/7.jpg" onclick="location7()" alt="Afbeelding van RijnIJssel Kamillelaan 8-10-12">
+							<p class="location-name">Kamillelaan 8-10-12</p>
+							<p class="location-zip">6833 GK Arnhem</p>
+							<p class="location-phone">026 3129400</p>
+							<div class="parent">
+							<a href="https://www.rijnijssel.nl/Locaties/?id=12&go_number=6" target="_blank">Opleidingen op locatie ></a>
+							</div>
+						</div>
+						<div class="location  col-sm-4 col-xs-6 col-md-3 col-lg-3">
+							<img class="location-img" src="images/locations/8.jpg" onclick="location8()" alt="Afbeelding van RijnIJssel Kazerneplein 6-1">
+							<p class="location-name">Kazerneplein 6-1</p>
+							<p class="location-zip">6822 ET Arnhem</p>
+							<p class="location-phone">026 3129400</p>
+							<div class="parent">
+							<a href="https://www.rijnijssel.nl/Locaties/?id=36&go_number=7" target="_blank">Opleidingen op locatie ></a>
+							</div>
+						</div>
+						<div class="location  col-sm-4 col-xs-6 col-md-3 col-lg-3">
+							<img class="location-img" src="images/locations/9.jpg" onclick="location9()" alt="Afbeelding van RijnIJssel Korianderstraat 81">
+							<p class="location-name">Korianderstraat 81</p>
+							<p class="location-zip">6833 CN Arnhem</p>
+							<p class="location-phone">026 3129800</p>
+							<div class="parent">
+							<a href="https://www.rijnijssel.nl/Locaties/?id=14&go_number=8" target="_blank">Opleidingen op locatie ></a>
+							</div>
+						</div>
+						<div class="location  col-sm-4 col-xs-6 col-md-3 col-lg-3">
+							<img class="location-img" src="images/locations/10.jpg" onclick="location10()" alt="Afbeelding van RijnIJssel Kronenburgsingel 16">
+							<p class="location-name">Kronenburgsingel 16</p>
+							<p class="location-zip">6831 EX Arnhem</p>
+							<p class="location-phone">026 3129700</p>
+							<div class="parent">
+							<a href="https://www.rijnijssel.nl/Locaties/?id=15&go_number=9" target="_blank">Opleidingen op locatie ></a>
+							</div>
+						</div>
+						<div class="location  col-sm-4 col-xs-6 col-md-3 col-lg-3">
+							<img class="location-img" src="images/locations/11.jpg" onclick="location11()" alt="Afbeelding van RijnIJssel Laan van Scheut 2">
+							<p class="location-name">Laan van Scheut 2</p>
+							<p class="location-zip">6525 EM Nijmegen</p>
+							<p class="location-phone">024 3531967</p>
+							<div class="parent">
+							<a href="https://www.rijnijssel.nl/Locaties/?id=16&go_number=10" target="_blank">Opleidingen op locatie ></a>
+							</div>
+						</div>
+						<div class="location  col-sm-4 col-xs-6 col-md-3 col-lg-3">
+							<img class="location-img" src="images/locations/12.jpg" onclick="location12()" alt="Afbeelding van RijnIJssel Marijkeweg 5 en 20">
+							<p class="location-name">Marijkeweg 5 en 20</p>
+							<p class="location-zip">6709 PG Wageningen</p>
+							<p class="location-phone">026 3129600</p>
+							<div class="parent">
+							<a href="https://www.rijnijssel.nl/Locaties/?id=17&go_number=11" target="_blank">Opleidingen op locatie ></a>
+							</div>
+						</div>
+						<div class="location  col-sm-4 col-xs-6 col-md-3 col-lg-3">
+							<img class="location-img" src="images/locations/13.jpg" onclick="location13()" alt="Afbeelding van RijnIJssel Middachtensingel 2">
+							<p class="location-name">Middachtensingel 2</p>
+							<p class="location-zip">6825 HN Arnhem</p>
+							<p class="location-phone">026 3129300</p>
+							<div class="parent">
+							<a href="https://www.rijnijssel.nl/Locaties/?id=18&go_number=12" target="_blank">Opleidingen op locatie ></a>
+							</div>
+						</div>
+						<div class="location  col-sm-4 col-xs-6 col-md-3 col-lg-3">
+							<img class="location-img" src="images/locations/14.jpg" onclick="location14()" alt="Afbeelding van RijnIJssel Nijverheidsstraat 67a">
+							<p class="location-name">Nijverheidsstraat 67a</p>
+							<p class="location-zip">6681 LN Bemmel</p>
+							<p class="location-phone">026 3129400</p>
+							<div class="parent">
+							<a href="https://www.rijnijssel.nl/Locaties/?id=19&go_number=13" target="_blank">Opleidingen op locatie ></a>
+							</div>
+						</div>
+						<div class="location  col-sm-4 col-xs-6 col-md-3 col-lg-3">
+							<img class="location-img" src="images/locations/15.jpg" onclick="location15()" alt="Afbeelding van RijnIJssel Papendallaan 51">
+							<p class="location-name">Papendallaan 51</p>
+							<p class="location-zip">6816 VD Arnhem</p>
+							<p class="location-phone">026 3691480</p>
+							<div class="parent">
+							<a href="https://www.rijnijssel.nl/Locaties/?id=22&go_number=14" target="_blank">Opleidingen op locatie ></a>
+							</div>
+						</div>
+						<div class="location  col-sm-4 col-xs-6 col-md-3 col-lg-3">
+							<img class="location-img" src="images/locations/16.jpg" onclick="location16()" alt="Afbeelding van RijnIJssel Pr. Irenestraat 49">
+							<p class="location-name">Pr. Irenestraat 49</p>
+							<p class="location-zip">6661 EA Elst</p>
+							<p class="location-phone">0481 377492</p>
+							<div class="parent">
+							<a href="https://www.rijnijssel.nl/Locaties/?id=23&go_number=15" target="_blank">Opleidingen op locatie ></a>
+							</div>
+						</div>
+						<div class="location  col-sm-4 col-xs-6 col-md-3 col-lg-3">
+							<img class="location-img" src="images/locations/17.jpg" onclick="location17()" alt="Afbeelding van RijnIJssel Stationsplein 8">
+							<p class="location-name">Stationsplein 8</p>
+							<p class="location-zip">6901 BE Zevenaar</p>
+							<p class="location-phone">0316 524153</p>
+							<div class="parent">
+							<a href="https://www.rijnijssel.nl/Locaties/?id=8&go_number=16" target="_blank">Opleidingen op locatie ></a>
+							</div>
+						</div>
+						<div class="location  col-sm-4 col-xs-6 col-md-3 col-lg-3">
+							<img class="location-img" src="images/locations/18.jpg" onclick="location18()" alt="Afbeelding van RijnIJssel Tellegenlaan 2">
+							<p class="location-name">Tellegenlaan 2</p>
+							<p class="location-zip">6951 DD Dieren</p>
+							<p class="location-phone">0313 450500</p>
+							<div class="parent">
+							<a href="https://www.rijnijssel.nl/Locaties/?id=8&go_number=17" target="_blank">Opleidingen op locatie ></a>
+							</div>
+						</div>
+						<div class="location  col-sm-4 col-xs-6 col-md-3 col-lg-3">
+							<img class="location-img" src="images/locations/19.jpg" onclick="location19()" alt="Afbeelding van RijnIJssel Thorbeckestraat 6">
+							<p class="location-name">Thorbeckestraat 6</p>
+							<p class="location-zip">6828 TV Arnhem</p>
+							<p class="location-phone">026 3129400</p>
+							<div class="parent">
+							<a href="https://www.rijnijssel.nl/Locaties/?id=26&go_number=18" target="_blank">Opleidingen op locatie ></a>
+							</div>
+						</div>
+						<div class="location  col-sm-4 col-xs-6 col-md-3 col-lg-3">
+							<img class="location-img" src="images/locations/20.jpg" onclick="location20()" alt="Afbeelding van RijnIJssel Utrechtsestraat 40/42">
+							<p class="location-name">Utrechtsestraat 40/42</p>
+							<p class="location-zip">6811 LZ Arnhem</p>
+							<p class="location-phone">026 3129200</p>
+							<div class="parent">
+							<a href="https://www.rijnijssel.nl/Locaties/?id=27&go_number=19" target="_blank">Opleidingen op locatie ></a>
+							</div>
+						</div>
+						<div class="location  col-sm-4 col-xs-6 col-md-3 col-lg-3">
+							<img class="location-img" src="images/locations/21.jpg" onclick="location21()" alt="Afbeelding van RijnIJssel Velperweg 39">
+							<p class="location-name">Velperweg 39</p>
+							<p class="location-zip">6824 BG Arnhem</p>
+							<p class="location-phone">026 3129100</p>
+							<div class="parent">
+							<a href="https://www.rijnijssel.nl/Locaties/?id=28&go_number=20" target="_blank">Opleidingen op locatie ></a>
+							</div>
+						</div>
+						<div class="location  col-sm-4 col-xs-6 col-md-3 col-lg-3">
+							<img class="location-img" src="images/locations/22.jpg" onclick="location22()" alt="Afbeelding van Veluwestraat 120">
+							<p class="location-name">Veluwestraat 120</p>
+							<p class="location-zip">6813 EE Arnhem</p>
+							<p class="location-phone">026 3129770</p>
+							<div class="parent">
+							<a href="https://www.rijnijssel.nl/Locaties/?id=29&go_number=21" target="_blank">Opleidingen op locatie ></a>
+							</div>
+						</div>
+						<div class="location  col-sm-4 col-xs-6 col-md-3 col-lg-3">
+							<img class="location-img" src="images/locations/23.jpg" onclick="location23()" alt="Afbeelding van Zijpendaalseweg 167">
+							<p class="location-name">Zijpendaalseweg 167</p>
+							<p class="location-zip">6814 CJ Arnhem</p>
+							<p class="location-phone">026 3129000</p>
+							<div class="parent">
+							<a href="https://www.rijnijssel.nl/Locaties/?id=30&go_number=22" target="_blank">Opleidingen op locatie ></a>
+							</div>
+						</div>
+						<div class="float-clear"></div>
+
+
+				</div>
+			</div>
+
+	<div class="footer">
+		&copy; 2016 - Rijn IJssel. Alle rechten voorbehouden.
+	</div>
+			<script type="text/javascript">
+				$(document).ready(function() {
+					$(".fancybox").fancybox();
+				});
+			</script>
+		</div>
+	<!-- jQuery Version 1.11.1 -->
+	<script src="js/jquery.js"></script>
+
+	<!-- Bootstrap Core JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
