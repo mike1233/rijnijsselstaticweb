@@ -133,6 +133,26 @@ li {
 	word-wrap: break-word;
 }
 
+.schedule_names2 {
+    background: #c9302c;
+    color: white;
+    padding: 5px 10px;
+    word-wrap: break-word;
+}
+
+#roosterf1{
+    display: none;
+    position: relative;
+    margin-top: 50px;
+}
+
+#roosterf3{
+    display: none;
+    position: relative;
+    margin-top: 50px;
+}
+
+
 
 /******************************\
 |            RULES             |
@@ -154,7 +174,8 @@ li {
     width: 100%;
     padding: 15px;
     display: inline-block;
-    border-bottom: 1px solid #1a1a1a;
+    border: 1px solid #4B08A1;
+    border-bottom: 0px;
     background: #FF5800;
     transition: all linear 0.15s;
     font-size: 1.200em;
@@ -163,19 +184,23 @@ li {
     font-family: Verdana;
 }
 
+
 .accordion-section-title.active, .accordion-section-title:hover {
     background: #4B08A1;
     text-decoration: none;
+    color: white;
 }
  
-.accordion-section:last-child .accordion-section-title {
-    border-bottom: none;
+.accordion-section:last-child  {
+    border-bottom: 1px solid #4B08A1;
 }
 
 .accordion-section-content {
     padding: 15px;
     display: none;
     font-family: Arial;
+    border-left: 1px solid #4B08A1;
+    border-right: 1px solid #4B08A1;
 }
 
 a:hover, .accordion a {
