@@ -1,37 +1,47 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
+        <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+        <script type="text/javascript">
+            window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":"","theme":"dark-bottom"};
+        </script>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
+        <!-- End Cookie Consent plugin -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script type="text/javascript" src="js/cookie.js"></script>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
 
-    <title>Rooster</title>
+		<title>Rooster</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/stylesheet.css">
+        <!-- Bootstrap Core CSS -->
+        <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/stylesheet.css">
 
-    <!-- Custom CSS -->
-    <style>
-    body {
-        padding-top: 25px;
-        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    }
-    </style>
+        <!-- Custom CSS -->
+        <style type="text/css">
+        body {
+            padding-top: 25px;
+            /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+        }
+        </style>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script type="text/javascript" src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
 
-</head>
+    </head>
 
 <body>
+
 	<div class="container" id="banner">
       <div class="row">
 		<div class="header col-xs-12">
@@ -84,135 +94,273 @@
     </nav>
 			
 			<div class="container">
-				<div class="schedule">
-				    <table style="width: 100%;">
-				        <tr>
-				            <th>Dag</th>
-				            <th>Maandag</th>
-				            <th>Dinsdag</th>
-				            <th>Woensdag</th>
-				            <th>Donderdag</th>
-				            <th>Vrijdag</th>
-				        </tr>
+                <h1>Kies je klas</h1>
+                <input type="radio" name="class" id="icia-f1" value="icia-f1">icia-f1
+                <input type="radio" name="class" id="icia-f3" value="icia-f3">icia-f3
+                <button id="buttons">Save me</button>
 
-				        <tr>
-				            <th>08:30 - 09:00</th>
-				            <th></th>
-				            <th class="schedule_names">AO</th>
-				            <th></th>
-				            <th class="schedule_names" rowspan="4">AO</th>
-				            <th class="schedule_names" rowspan="8">AO</th>
-				        </tr>
+				<div id="roosterf1">
+                    <div class="schedule">
+                        <table style="width: 100%;">
+                            <tr>
+                                <th>Dag</th>
+                                <th>Maandag</th>
+                                <th>Dinsdag</th>
+                                <th>Woensdag</th>
+                                <th>Donderdag</th>
+                                <th>Vrijdag</th>
+                            </tr>
 
-				        <tr>
-				            <th>09:00 - 09:30</th>
-				            <th></th>
-				            <th class="schedule_names" rowspan="2">Burgerschap</th>
-				            <th></th>
-				        </tr>
+                            <tr>
+                                <th>08:30 - 09:00</th>
+                                <th></th>
+                                <th class="schedule_names">AO</th>
+                                <th></th>
+                                <th class="schedule_names" rowspan="4">AO</th>
+                                <th class="schedule_names" rowspan="8">AO</th>
+                            </tr>
 
-				        <tr>
-				            <th>09:30 - 10:00</th>
-				            <th></th>
-				            <th></th>
-				        </tr>
+                            <tr>
+                                <th>09:00 - 09:30</th>
+                                <th></th>
+                                <th class="schedule_names" rowspan="2">Burgerschap</th>
+                                <th></th>
+                            </tr>
 
-				        <tr>
-				            <th>10:00 - 10:30</th>
-				            <th></th>
-				            <th class="schedule_names" rowspan="2">AO</th>
-				            <th></th>
-				        </tr>
+                            <tr>
+                                <th>09:30 - 10:00</th>
+                                <th></th>
+                                <th></th>
+                            </tr>
 
-				        <tr>
-				            <th>10:30 - 11:00</th>
-				            <th></th>
-				            <th></th>
-				            <th class="schedule_names" rowspan="4">AO</th>
-				        </tr>
+                            <tr>
+                                <th>10:00 - 10:30</th>
+                                <th></th>
+                                <th class="schedule_names" rowspan="2">AO</th>
+                                <th></th>
+                            </tr>
 
-				        <tr>
-				            <th>11:00 - 11:30</th>
-				            <th></th>
-				            <th class="schedule_names" rowspan="3">Structuuruur</th>
-				            <th class="schedule_names">Structuuruur</th>
-				        </tr>
+                            <tr>
+                                <th>10:30 - 11:00</th>
+                                <th></th>
+                                <th></th>
+                                <th class="schedule_names" rowspan="4">AO</th>
+                            </tr>
 
-				        <tr>
-				            <th>11:30 - 12:00</th>
-				            <th class="schedule_names" rowspan="2">Engels</th>
-				            <th class="schedule_names" rowspan="2">Rekenen</th>
-				        </tr>
+                            <tr>
+                                <th>11:00 - 11:30</th>
+                                <th></th>
+                                <th class="schedule_names" rowspan="3">Structuuruur</th>
+                                <th class="schedule_names">Structuuruur</th>
+                            </tr>
 
-				        <tr>
-				            <th>12:00 - 12:30</th>
-				        </tr>
+                            <tr>
+                                <th>11:30 - 12:00</th>
+                                <th class="schedule_names" rowspan="2">Engels</th>
+                                <th class="schedule_names" rowspan="2">Rekenen</th>
+                            </tr>
 
-				        <tr>
-				            <th>12:30 - 13:00</th>
-				            <th></th>
-				            <th></th>
-				            <th></th>
-				            <th></th>
-				            <th></th>
-				        </tr>
+                            <tr>
+                                <th>12:00 - 12:30</th>
+                            </tr>
 
-				        <tr>
-				            <th>13:00 - 13:30</th>
-				            <th class="schedule_names" rowspan="8">AO</th>
-				            <th class="schedule_names" rowspan="6">AO</th>
-				            <th class="schedule_names" rowspan="8">AO</th>
-				            <th></th>
-				            <th></th>
-				        </tr>
+                            <tr>
+                                <th>12:30 - 13:00</th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                            </tr>
 
-				        <tr>
-				            <th>13:30 - 14:00</th>
-				            <th></th>
-				            <th></th>
-				        </tr>
+                            <tr>
+                                <th>13:00 - 13:30</th>
+                                <th class="schedule_names" rowspan="8">AO</th>
+                                <th class="schedule_names" rowspan="6">AO</th>
+                                <th class="schedule_names" rowspan="8">AO</th>
+                                <th></th>
+                                <th></th>
+                            </tr>
 
-				        <tr>
-				            <th>14:00 - 14:30</th>
-				            <th class="schedule_names" rowspan="4">Sport</th>
-				            <th></th>
-				        </tr>
+                            <tr>
+                                <th>13:30 - 14:00</th>
+                                <th></th>
+                                <th></th>
+                            </tr>
 
-				        <tr>
-				            <th>14:30 - 15:00</th>
-				            <th></th>
-				        </tr>
+                            <tr>
+                                <th>14:00 - 14:30</th>
+                                <th class="schedule_names" rowspan="4">Sport</th>
+                                <th></th>
+                            </tr>
 
-				        <tr>
-				            <th>15:00 - 15:30</th>
-				            <th></th>
-				        </tr>
+                            <tr>
+                                <th>14:30 - 15:00</th>
+                                <th></th>
+                            </tr>
 
-				        <tr>
-				            <th>15:30 - 16:00</th>
-				            <th></th>
-				        </tr>
+                            <tr>
+                                <th>15:00 - 15:30</th>
+                                <th></th>
+                            </tr>
 
-				        <tr>
-				            <th>16:00 - 16:30</th>
-				            <th></th>
-				            <th></th>
-				            <th></th>
-				        </tr>
+                            <tr>
+                                <th>15:30 - 16:00</th>
+                                <th></th>
+                            </tr>
 
-				        <tr>
-				            <th>16:30 - 17:00</th>
-				            <th></th>
-				            <th></th>
-				            <th></th>
-				        </tr>
-				    </table>
+                            <tr>
+                                <th>16:00 - 16:30</th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+
+                            <tr>
+                                <th>16:30 - 17:00</th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </table>
+                    </div>
 				</div>
+
+                <div id="roosterf3">
+                    <div class="schedule">
+                        <table style="width: 100%;">
+                            <tr>
+                                <th>Dag</th>
+                                <th>Maandag</th>
+                                <th>Dinsdag</th>
+                                <th>Woensdag</th>
+                                <th>Donderdag</th>
+                                <th>Vrijdag</th>
+                            </tr>
+
+                            <tr>
+                                <th>08:30 - 09:00</th>
+                                <th></th>
+                                <th class="schedule_names2">AO</th>
+                                <th></th>
+                                <th class="schedule_names2" rowspan="4">AO</th>
+                                <th class="schedule_names2" rowspan="8">AO</th>
+                            </tr>
+
+                            <tr>
+                                <th>09:00 - 09:30</th>
+                                <th></th>
+                                <th class="schedule_names2" rowspan="2">Burgerschap</th>
+                                <th></th>
+                            </tr>
+
+                            <tr>
+                                <th>09:30 - 10:00</th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+
+                            <tr>
+                                <th>10:00 - 10:30</th>
+                                <th></th>
+                                <th class="schedule_names2" rowspan="2">AO</th>
+                                <th></th>
+                            </tr>
+
+                            <tr>
+                                <th>10:30 - 11:00</th>
+                                <th></th>
+                                <th></th>
+                                <th class="schedule_names2" rowspan="4">AO</th>
+                            </tr>
+
+                            <tr>
+                                <th>11:00 - 11:30</th>
+                                <th></th>
+                                <th class="schedule_names2" rowspan="3">Structuuruur</th>
+                                <th class="schedule_names2">Structuuruur</th>
+                            </tr>
+
+                            <tr>
+                                <th>11:30 - 12:00</th>
+                                <th class="schedule_names2" rowspan="2">Engels</th>
+                                <th class="schedule_names2" rowspan="2">Rekenen</th>
+                            </tr>
+
+                            <tr>
+                                <th>12:00 - 12:30</th>
+                            </tr>
+
+                            <tr>
+                                <th>12:30 - 13:00</th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+
+                            <tr>
+                                <th>13:00 - 13:30</th>
+                                <th class="schedule_names2" rowspan="8">AO</th>
+                                <th class="schedule_names2" rowspan="6">AO</th>
+                                <th class="schedule_names2" rowspan="8">AO</th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+
+                            <tr>
+                                <th>13:30 - 14:00</th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+
+                            <tr>
+                                <th>14:00 - 14:30</th>
+                                <th class="schedule_names2" rowspan="4">Sport</th>
+                                <th></th>
+                            </tr>
+
+                            <tr>
+                                <th>14:30 - 15:00</th>
+                                <th></th>
+                            </tr>
+
+                            <tr>
+                                <th>15:00 - 15:30</th>
+                                <th></th>
+                            </tr>
+
+                            <tr>
+                                <th>15:30 - 16:00</th>
+                                <th></th>
+                            </tr>
+
+                            <tr>
+                                <th>16:00 - 16:30</th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+
+                            <tr>
+                                <th>16:30 - 17:00</th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
 			</div>
+
+
+
+
 			<div class="footer">
 				&copy; 2016 - Rijn IJssel. Alle rechten voorbehouden.
 			</div>
-		</div>
+
 	<!-- jQuery Version 1.11.1 -->
 	<script src="js/jquery.js"></script>
 
